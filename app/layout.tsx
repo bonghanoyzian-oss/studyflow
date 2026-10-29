@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "StudyFlow",
   description: "StudyFlow — your personal student planner and task manager.",
-}; verification: {
+  verification: {
     google: "b4x6GBO5LkVXSBnM4Ck0WuMu8tqlP5s9opLjtS_pOS8",
   },
-
+};
 
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
